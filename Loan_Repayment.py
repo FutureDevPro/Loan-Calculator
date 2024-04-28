@@ -30,7 +30,7 @@ st.write('### Repayments')
 col1 , col2 , col3 = st.columns(3)
 col1.metric(label="Monthly Repayments" , value=f"Rs{monthly_payment:,.2f}")
 col2.metric(label="Total Repayments" , value=f"Rs{total_payments:,.0f}")
-col3.metric(label="Monthly Interest" , value=f"Rs{total_interest:,.0f}")
+col3.metric(label="Total Interest" , value=f"Rs{total_interest:,.0f}")
 
 # Create a DataFrame with the payment schedule
 schedule = []
